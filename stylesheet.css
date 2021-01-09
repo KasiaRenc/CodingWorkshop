@@ -1,0 +1,134 @@
+/*main body styling*/
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+body, html {
+  height: 100%;
+}
+
+/*Hero/cover image Section*/
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*The Uni Gown Hire way Section*/
+h1.our-way {
+  font-size: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+p.our-way {
+  padding-top: 20px; 
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.btn.btn-secondary {
+  display: flex;
+  justify-content: center;
+}
+
+/*The Uni Hire Way*/
+.card-deck{
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*congradulations*/
+h2.congratulationsheader {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 32px;
+}
+
+p.congratulationsheader {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+span.congratulationsheader {
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.congratulations{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  max-width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #E5C3BF;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/*Who are we section*/
+.rectangle{ 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto; 
+  background-color: #F7EFEC
+}
+
+.who-are-we{
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+h2.w-a-w-title{
+  padding-bottom: 20px;
+}
