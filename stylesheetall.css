@@ -138,3 +138,9 @@ iframe{
     font-weight:600
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
